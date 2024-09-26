@@ -144,6 +144,9 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+           <div className="text-white font-medium mb-4">
+              Made With <span className="text-red-600 text-lg"> ❤</span> By Aryan
+            </div>
         </form>
       </motion.div>
 
