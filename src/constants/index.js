@@ -277,7 +277,7 @@ const publicUrls = {
   socialProfiles: {
     resume: {
       title: "Resume",
-      link: "https://www.drive.google.com",
+      link: "https://drive.google.com/file/d/1mCR56TfGhRLG-_9UMqp96Ihaxq5L-1Lk/view?usp=sharing",
       icon: resume,
     },
     linkedin: {
