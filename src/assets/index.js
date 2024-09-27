@@ -7,7 +7,7 @@ import github from "./socials/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import edu from "./edu.png";
-import pm from "./PM.png";
+import pm from "./pm.png";
 import android from "./and.png";
 import css from "./tech/css.png";
 import git from "./tech/git.png";

@@ -110,10 +110,10 @@ const technologies = [
     name: "Java",
     icon: java,
   },
-  {
-    name: "kotlin",
-    icon: kotlin,
-  },
+  // {
+  //   name: "kotlin",
+  //   icon: kotlin,
+  // },
   {
     name: "git",
     icon: git,
@@ -163,6 +163,7 @@ const experiences = [
 
 
 
+
 const projects = [
   {
     name: "College Chatbot",
@@ -204,7 +205,7 @@ const projects = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/AryanJ2004/3D-Personal-Portfolio",
+    source_code_link: "https://github.com/",
   },
 
   {
@@ -238,38 +239,38 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
         name: "javascript",
         color: "pink-text-gradient",
       },
-    ],
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+ ],
     image: project4,
     source_code_link: "https://github.com/AryanJ2004/Spotify-Clone",
   },
-  {
-    name: "Amazon Website Clone",
-    description:
-      "This project is a front-end replica of the e-commerce platform Amazon, made using HTML, CSS, and JavaScript. It features a visually appealing and intuitive user interface, allowing users to browse products, and explore categories. The design closely mirrors Amazon’s layout, focusing on responsiveness and user experience.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/AryanJ2004/Amazon_Clone",
-  },
+  // {
+  //   name: "Amazon Website Clone",
+  //   description:
+  //     "This project is a front-end replica of the e-commerce platform Amazon, made using HTML, CSS, and JavaScript. It features a visually appealing and intuitive user interface, allowing users to browse products, and explore categories. The design closely mirrors Amazon’s layout, focusing on responsiveness and user experience.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: project5,
+  //   source_code_link: "https://github.com/AryanJ2004/Amazon_Clone",
+  // },
 ];
 
 
@@ -277,7 +278,7 @@ const publicUrls = {
   socialProfiles: {
     resume: {
       title: "Resume",
-      link: "https://drive.google.com/file/d/1mCR56TfGhRLG-_9UMqp96Ihaxq5L-1Lk/view?usp=sharing",
+      link: "https://www.drive.google.com",
       icon: resume,
     },
     linkedin: {

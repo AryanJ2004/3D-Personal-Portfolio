@@ -96,8 +96,10 @@ const Contact = () => {
 
 
 
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+          <p className={`${styles.sectionSubText} hidden sm:block`}>Get in touch</p>
+
+          <h3 className={`${styles.sectionHeadText} mt-10 sm:mt-0`}>Contact.</h3>
+
 
         <form
           ref={formRef}
@@ -137,16 +139,18 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
+            
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            
+            {loading ? "Sending..." : "Send"} 
           </button>
-           <div className="text-white font-medium mb-4">
+            <div className="text-white font-medium mb-4">
               Made With <span className="text-red-600 text-lg"> ❤</span> By Aryan
             </div>
+          
         </form>
       </motion.div>
 
@@ -155,6 +159,7 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
+       
       </motion.div>
     </div>
   );
